@@ -1,7 +1,7 @@
 <template>
-    <video autoplay muted loop id="myVideo">
+    <v-video autoplay muted loop id="myVideo">
         <source src="../assets/videodc.mp4" type="video/mp4">
-    </video>
+    </v-video>
 </template>
 
 <script>

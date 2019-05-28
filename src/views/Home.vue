@@ -1,13 +1,21 @@
 <template>
-  <HelloWorld />
+<span>
+  <!-- <Video /> -->
+  <home-hero></home-hero>
+  <home-details></home-details>
+</span>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  // import Video from '@/components/Video'
+  import HomeHero from '@/components/HomeHero'
+  import HomeDetails from '@/components/HomeDetails'
 
   export default {
     components: {
-      HelloWorld
+      // Video,
+      HomeHero,
+      HomeDetails
     }
   }
 </script>
